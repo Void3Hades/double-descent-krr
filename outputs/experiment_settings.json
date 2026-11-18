@@ -1,0 +1,32 @@
+{
+  "training_samples": 140,
+  "test_samples": 1200,
+  "signal_features": 15,
+  "noise_standard_deviation": 0.3,
+  "ridge_regularization_lambda": 0.001,
+  "base_seed": 42,
+  "num_seeds": 20,
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61
+  ],
+  "kernel": "linear: K(x_i, x_j) = x_i.T @ x_j"
+}
