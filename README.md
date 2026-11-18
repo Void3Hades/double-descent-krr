@@ -9,8 +9,10 @@ averaged over 20 random seeds.
 - Feature dimension p swept from 8 to 280
 
 ## Run
+```
 pip install -r requirements.txt
 python3 double_descent_krr_20seed.py
+```
 
 ## Results
 Mean test MSE peaks at p = n = 140 (about 22.9), then drops again
